@@ -51,7 +51,7 @@ function generatePassword() {
   
   // take all true arrays and concat into new array
 
-  var chosenChars = "";
+  var chosenChars = [];
   
   if (getSpecCharacters) {
     chosenChars = specialCharacters.concat(chosenChars);
@@ -67,7 +67,6 @@ function generatePassword() {
 
   if (getLower) {
     chosenChars = lowerCase.concat(chosenChars);
-    // spec characters and numbers
   };
 
   if (!getSpecCharacters && !getNumbers && !getUpper && !getLower) {
@@ -75,12 +74,16 @@ function generatePassword() {
       return;
   };
   
-  for (i = 0; i < userCharacters; i++) {
-    var passwordChars = chosenChars[Math.floor(Math.random() * chosenChars.length)];
-    password = chosenChars.concat(passwordChars);
+  console.log (chosenChars);
+
+  var result = [];
+
+  for (var i = 0; i < userCharacters; i++) {
+    var random = chosenChars[Math.floor(Math.random() * chosenChars.length)];
+    result.push(chosenChars[random]);
   };
 
-  console.log (passwordChars);
+  console.log (result);
 
   // Create for loop
   // choose random chars from array based on user input
