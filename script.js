@@ -74,25 +74,21 @@ function generatePassword() {
       return;
   };
   
-  console.log (chosenChars);
+  // Create for loop
+  // choose random chars from array based on user input - math random
+  // var push into new array
 
   var result = [];
 
   for (var i = 0; i < userCharacters; i++) {
     var random = chosenChars[Math.floor(Math.random() * chosenChars.length)];
-    result.push(chosenChars[random]);
+    result.push(random);
   };
 
-  console.log (result);
 
-  // Create for loop
-  // choose random chars from array based on user input
-  // var push into new array
   // var password = turn array into string .toString()
-
-
-
-  // return password
-
-
+  
+  var password = result.join("").toString();
+  console.log(password)
+  return password;
 }
