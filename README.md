@@ -2,23 +2,28 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+The Password Generator will allow any user to create a randomized password using special characters, numbers, capitalized letter, and lowercase letters within the length of 8 to 129 characters.
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+### Items Completed
+- Created a prompt window for the desired length to be inputted.
+- Created confirm windows to select desired characters to be used.
+- Used if statements to combine selected characters into one array.
+- Used a for loop with math.random to select random characters from the one array.
+- For loop then generates the randomized password with random elements from selected characters.
 
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+Access the webpage here: [Password Generator](URL Here)
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+To create a randomized password please follow the steps below:
+- Click "Generate Password" button on webpage.
+- Answer the prompt message by putting in a number between 8 and 128.
+- Select the type of characters you want to include: Special Characters, Numbers, Lowercase Letters, or Uppercase Letters. (You must select at least one!)
+- The password will automatically generate within the box for you to select and copy!
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+![Password Generator webpage](assets/images/screenshot.png)
+
 
 ## Credits
 
