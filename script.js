@@ -38,17 +38,10 @@ function generatePassword() {
   // What type of characters do you want
   // special character, numbers, uppercase, and lowercase
   // window.confirm
-  
   var getSpecCharacters = window.confirm("Do you want to use special characters?");
   var getNumbers = window.confirm("Do you want to use numbers?");
   var getUpper = window.confirm("Do you want to use uppercase letters?");
   var getLower = window.confirm("Do you want to use lowercase letters?");
-  
-  
-  // if (!getSpecCharacters && !getNumbers && !getUpper && !getLower) {
-    //   window.alert("Your must choose at least one type of character to create a password. Please try again.");
-  //   return;
-  // }
   
   // Use answers to make password
   //  vars that include all possible characters
