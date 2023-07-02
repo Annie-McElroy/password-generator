@@ -14,7 +14,7 @@ The Password Generator will allow any user to create a randomized password using
 
 ## Usage
 
-Access the webpage here: [Password Generator](URL Here)
+Access the webpage here: [Password Generator](https://annie-mcelroy.github.io/password-generator/)
 
 To create a randomized password please follow the steps below:
 - Click "Generate Password" button on webpage.
@@ -22,10 +22,12 @@ To create a randomized password please follow the steps below:
 - Select the type of characters you want to include: Special Characters, Numbers, Lowercase Letters, or Uppercase Letters. (You must select at least one!)
 - The password will automatically generate within the box for you to select and copy!
 
-![Password Generator webpage](assets/images/screenshot.png)
+![alt text](./assets/images/screen.password-generator.png)
 
 
 ## Credits
+
+Starter code provided by University of Texas Coding Bootcamp.
 
 
 
