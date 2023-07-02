@@ -19,6 +19,10 @@ function generatePassword() {
   // store var for characters
   
   var userCharacters = window.prompt("How many characters do you want your password to be?");
+
+  if (!userCharacters) {
+    return;
+  }
   
   if (isNaN(userCharacters)) {
     window.alert("You must enter a valid number!");
