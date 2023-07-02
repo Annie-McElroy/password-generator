@@ -20,10 +20,16 @@ function generatePassword() {
   
   var userCharacters = window.prompt("How many characters do you want your password to be?");
   
+  if (isNaN(userCharacters)) {
+    window.alert("You must enter a valid number!");
+    return;
+  }
+
   if (userCharacters < 8 || userCharacters > 128) {
     window.alert("Your password must be at least 8 characters long and no more than 128.");
     return;
   };
+
   
   // What type of characters do you want
   // special character, numbers, uppercase, and lowercase
@@ -74,9 +80,9 @@ function generatePassword() {
       return;
   };
   
-  // Create for loop
+  // Create empty array then added for loop
   // choose random chars from array based on user input - math random
-  // var push into new array
+  // push random result into the empty array
 
   var result = [];
 
@@ -87,8 +93,10 @@ function generatePassword() {
 
 
   // var password = turn array into string .toString()
+  // added .join("") to remove commas from array/string
   
   var password = result.join("").toString();
-  console.log(password)
+
+  // Changed 
   return password;
-}
+};
