@@ -97,6 +97,6 @@ function generatePassword() {
   
   var password = result.join("").toString();
 
-  // Changed 
+  // return password
   return password;
 };
