@@ -22,12 +22,16 @@ To create a randomized password please follow the steps below:
 - Select the type of characters you want to include: Special Characters, Numbers, Lowercase Letters, or Uppercase Letters. (You must select at least one!)
 - The password will automatically generate within the box for you to select and copy!
 
-![alt text](./assets/images/screen.password-generator.png)
+![Password Generator webpage](./assets/images/screen.password-generator.png)
 
 
 ## Credits
 
 Starter code provided by University of Texas Coding Bootcamp.
+
+## License
+
+N/A
 
 
 
